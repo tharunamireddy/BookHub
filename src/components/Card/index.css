@@ -1,0 +1,70 @@
+.Card {
+  display: flex;
+  width: 30vw;
+  margin: 10px 20px 20px 0;
+}
+@media screen and (max-width: 576px) {
+  .Card {
+    width: 90vw;
+    margin: 10px 0 20px 0;
+  }
+}
+.Card-img {
+  width: 133px;
+  height: 155px;
+  top: 197px;
+  left: 438px;
+  gap: 0px;
+  border-radius: 8px 0px 0px 0px;
+  opacity: 0px;
+}
+.Card-title {
+  font-family: Inter;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  text-align: left;
+  color: #334155;
+}
+.Card-content {
+  padding-left: 10px;
+}
+.Card-status {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #0284c7;
+}
+.Card-para {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 16px;
+  text-align: left;
+  color: #475569;
+}
+@media screen and (max-width: 576px) {
+  .Card-para {
+    font-family: Inter;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 10px;
+    text-align: left;
+  }
+  .Card-status {
+    font-family: Inter;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 10px;
+    text-align: left;
+  }
+  .Card-title {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+  }
+}

@@ -1,0 +1,30 @@
+.yes {
+  color: #0284c7 !important;
+  cursor: pointer;
+}
+.no {
+  padding: 0;
+  cursor: pointer;
+}
+@media screen and (max-width: 576px) {
+  .yes {
+    color: #f8fafc !important;
+    background-color: #0284c7;
+    border-radius: 10px;
+    border: 1px solid #0284c7;
+    padding: 3px 9px;
+    margin: 0;
+  }
+  .NB-item {
+    margin: 3px 7px;
+    padding: 3px 9px;
+    border: 1px solid #0284c7;
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  .NB-button {
+    border: none;
+    outline: none;
+    background-color: transparent;
+  }
+}

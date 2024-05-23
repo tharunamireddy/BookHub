@@ -1,0 +1,40 @@
+.nav-logout-container {
+  display: flex;
+  list-style: none;
+  background-color: #f5f7fa;
+  height: 100vh;
+  padding: 30px 0 0 20px;
+}
+.nav-item {
+  color: #64748b;
+  margin: 0 25px 0 0;
+  height: 20px;
+}
+.nav-logout-button {
+  color: #f8fafc;
+  background-color: #0284c7;
+  border: 1px solid #0284c7;
+  padding: 6px;
+  width: 90px;
+  height: 30px;
+  border-radius: 4px;
+  margin: 0 15px;
+  cursor: pointer;
+}
+.icon {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+@media screen and (min-width: 577px) {
+  .nav-logout-container {
+    display: none;
+  }
+}
+.nav-button {
+  color: #334155;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+}
